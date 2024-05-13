@@ -2,38 +2,106 @@
 
 const teamMembers = [
     {
-      name: 'Lionel Messi',
-      age: 36,
-      activePlayer: true,
-      position: 'forward',
-      strengths: 'Ball Control',
+      name: 'George Washington',
+      age: 67,
+      alive: false,
+      party: 'Non-Applicable',
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Lionel Messi is considered one of the greatest football players of all time...'
+        'First President, led Revolutionary War.'
     },
     {
-      name: 'Lionel Messi Jr',
-      age: 36,
-      activePlayer: true,
-      position: 'Defender',
-      strengths: 'Ball Control',
+      name: 'Thomas Jefferson',
+      age: 83 ,
+      alive: false,
+      party: 'Democrat',
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Lionel Messi is considered one of the greatest football players of all time...'
+        'Wrote Declaration of Independence.'
     },
     {
-      name: 'Lionel Messi Jr II',
-      age: 36,
-      activePlayer: true,
-      position: 'mid',
-      strengths: 'Ball Control',
+      name: 'Abraham Lincoln',
+      age: 56,
+      alive: false,
+      party: 'Republican',
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Lionel Messi is considered one of the greatest football players of all time...'
+        'Led during Civil War, abolished slavery.'
+    },
+    {
+      name: 'Ulyesses S. Grant',
+      age: 63,
+      alive: false,
+      party: 'Republican',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        'Civil War General, 18th President.'
+    },
+    {
+      name: 'Theodore Roosevelt',
+      age: 60,
+      alive: false,
+      party: 'Republican',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        'Conservation advocate, led Rough Riders.'
+    },
+    {
+      name: 'William Howard Taft',
+      age: 72,
+      alive: false,
+      party: 'Republican',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        '27th President, later Chief Justice.'
+    },
+    {
+      name: 'Franklin D. Roosevelt',
+      age: 63,
+      alive: false,
+      party: 'Democrat',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        ' New Deal architect, WWII leader.'
+    },
+    {
+      name: 'Dwight D. Eisenhower',
+      age: 78,
+      alive: false,
+      party: 'Republican',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        'WWII General, 34th President.'
+    },
+    {
+      name: 'John F. Kennedy',
+      age: 46,
+      alive: false,
+      party: 'Democrat',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        'Cuban Missile Crisis, moon landing vision.'
+    },
+    {
+      name: 'Barack Obama',
+      age: 61,
+      alive: true,
+      party: 'Democrat',
+      weaknesses: 'heading ability',
+      skills: ['Dribbling', 'Shooting', 'Passing'],
+      biography:
+        'First Black President, Affordable Care Act.'
     }
+    
   ]
   
   function generateTeamCards () {
@@ -46,18 +114,18 @@ const teamMembers = [
       //style the BGColor of my card based on pos
       let backgroundColor
   
-      switch (member.position.toLowerCase()) {
-        case 'forward':
+      switch (member.party.toLowerCase()) {
+        case 'republican':
           backgroundColor = 'red'
           break
-        case 'mid':
-          backgroundColor = 'green'
-          break
-        case 'defender':
+        case 'democrat':
           backgroundColor = 'blue'
           break
+        case 'other':
+          backgroundColor = 'green'
+          break
         default:
-          backgroundColor = 'gray'
+          backgroundColor = 'purple'
       }
       
   
@@ -66,8 +134,21 @@ const teamMembers = [
                   <div class = "card-header">
                       ${member.name}
                   </div>
+
+                  <div id="cardBody" class="card-body"
+                  <p><strong>Age:</strong> ${member.age}</p>
+              </div>
+
+              <div id="cardBody" class="card-body"
+              <p><strong>Alive:</strong> ${member.alive}</p>
+          </div>
+
+              <div id="cardBody" class="card-body"
+              <p><strong>Biography:</strong> ${member.biography}</p>
+          </div>
+
                   <div id="cardBody" class="card-body" style="background-color:${backgroundColor};">
-                      <p><strong>Position:</strong> ${member.position}</p>
+                      <p><strong>Political Party:</strong> ${member.party}</p>
                   </div>
               </div>
           `

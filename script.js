@@ -143,6 +143,8 @@ const teamMembers = [
               <p><strong>Alive:</strong> ${member.alive}</p>
           </div>
 
+          <img src="${member.image}">
+
               <div id="cardBody" class="card-body"
               <p><strong>Biography:</strong> ${member.biography}</p>
           </div>
@@ -162,3 +164,5 @@ const teamMembers = [
   }
   
   window.onload = generateTeamCards()
+
+  //add image aspect to each card, thats all u have to do

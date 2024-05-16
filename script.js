@@ -9,7 +9,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'First President, led Revolutionary War.'
+        'First President, led Revolutionary War.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'Thomas Jefferson',
@@ -19,7 +20,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Wrote Declaration of Independence.'
+        'Wrote Declaration of Independence.',
+        image: 'imgs/TJ-300x300.png'
     },
     {
       name: 'Abraham Lincoln',
@@ -29,7 +31,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Led during Civil War, abolished slavery.'
+        'Led during Civil War, abolished slavery.',
+        image: 'imgs/AL-300x300.png'
     },
     {
       name: 'Ulyesses S. Grant',
@@ -39,7 +42,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Civil War General, 18th President.'
+        'Civil War General, 18th President.',
+        image: 'imgs/UG-300x300.png'
     },
     {
       name: 'Theodore Roosevelt',
@@ -49,7 +53,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Conservation advocate, led Rough Riders.'
+        'Conservation advocate, led Rough Riders.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'William Howard Taft',
@@ -59,7 +64,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        '27th President, later Chief Justice.'
+        '27th President, later Chief Justice.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'Franklin D. Roosevelt',
@@ -69,7 +75,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        ' New Deal architect, WWII leader.'
+        ' New Deal architect, WWII leader.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'Dwight D. Eisenhower',
@@ -79,7 +86,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'WWII General, 34th President.'
+        'WWII General, 34th President.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'John F. Kennedy',
@@ -89,7 +97,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'Cuban Missile Crisis, moon landing vision.'
+        'Cuban Missile Crisis, moon landing vision.',
+        image: 'imgs/GW-300x300.png'
     },
     {
       name: 'Barack Obama',
@@ -99,7 +108,8 @@ const teamMembers = [
       weaknesses: 'heading ability',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
-        'First Black President, Affordable Care Act.'
+        'First Black President, Affordable Care Act.',
+        image: 'imgs/GW-300x300.png'
     }
     
   ]

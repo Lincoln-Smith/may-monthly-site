@@ -54,7 +54,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Conservation advocate, led Rough Riders.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/TR-300x300.png'
     },
     {
       name: 'William Howard Taft',
@@ -65,7 +65,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         '27th President, later Chief Justice.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/WT-300x300.png'
     },
     {
       name: 'Franklin D. Roosevelt',
@@ -76,7 +76,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         ' New Deal architect, WWII leader.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/FR-300x300.png'
     },
     {
       name: 'Dwight D. Eisenhower',
@@ -87,7 +87,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'WWII General, 34th President.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/DE-300x300.png'
     },
     {
       name: 'John F. Kennedy',
@@ -98,7 +98,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Cuban Missile Crisis, moon landing vision.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/JK-300x300.png'
     },
     {
       name: 'Barack Obama',
@@ -109,7 +109,7 @@ const teamMembers = [
       skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'First Black President, Affordable Care Act.',
-        image: 'imgs/GW-300x300.png'
+        image: 'imgs/BO-300x300.png'
     }
     
   ]

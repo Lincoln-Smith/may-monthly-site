@@ -6,8 +6,6 @@ const teamMembers = [
       age: 67,
       alive: false,
       party: 'Non-Applicable',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'First President, led Revolutionary War.',
         image: 'imgs/GW-300x300.png'
@@ -17,8 +15,6 @@ const teamMembers = [
       age: 83 ,
       alive: false,
       party: 'Democrat',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Wrote Declaration of Independence.',
         image: 'imgs/TJ-300x300.png'
@@ -28,8 +24,6 @@ const teamMembers = [
       age: 56,
       alive: false,
       party: 'Republican',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Led during Civil War, abolished slavery.',
         image: 'imgs/AL-300x300.png'
@@ -39,8 +33,6 @@ const teamMembers = [
       age: 63,
       alive: false,
       party: 'Republican',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Civil War General, 18th President.',
         image: 'imgs/UG-300x300.png'
@@ -50,8 +42,6 @@ const teamMembers = [
       age: 60,
       alive: false,
       party: 'Republican',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Conservation advocate, led Rough Riders.',
         image: 'imgs/TR-300x300.png'
@@ -61,8 +51,6 @@ const teamMembers = [
       age: 72,
       alive: false,
       party: 'Republican',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         '27th President, later Chief Justice.',
         image: 'imgs/WT-300x300.png'
@@ -72,8 +60,6 @@ const teamMembers = [
       age: 63,
       alive: false,
       party: 'Democrat',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         ' New Deal architect, WWII leader.',
         image: 'imgs/FR-300x300.png'
@@ -83,8 +69,6 @@ const teamMembers = [
       age: 78,
       alive: false,
       party: 'Republican',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'WWII General, 34th President.',
         image: 'imgs/DE-300x300.png'
@@ -94,8 +78,6 @@ const teamMembers = [
       age: 46,
       alive: false,
       party: 'Democrat',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'Cuban Missile Crisis, moon landing vision.',
         image: 'imgs/JK-300x300.png'
@@ -105,8 +87,6 @@ const teamMembers = [
       age: 61,
       alive: true,
       party: 'Democrat',
-      weaknesses: 'heading ability',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
       biography:
         'First Black President, Affordable Care Act.',
         image: 'imgs/BO-300x300.png'
